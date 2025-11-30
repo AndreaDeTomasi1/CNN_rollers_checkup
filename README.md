@@ -52,11 +52,14 @@ Inoltre include una **web app Streamlit** per effettuare analisi tramite interfa
 │  
 ├── IMAGES/  
 │   ├── edge_tests/                        # Esempi dell'estrazione dei bordi con canny  
-│   └── ruote_catalogate_def/              # Esempi di organizzazione ruote in input  
+│   ├── ruote_catalogate_def/              # Esempi di organizzazione ruote in input  
+│   └── IMG-sostegno3D.jpg                 # Immagine sostegno fatto con stampante 3D   
 │  
-└── MODELS/                                # Modello Mobilenet dopo il fine-tuning  
-    └── regression_mobilenetv3_finetuned.pth 
-    
+├── MODELS/                                # Modello Mobilenet dopo il fine-tuning  
+│   └── regression_mobilenetv3_finetuned.pth   
+│  
+└── CNN_rollers_checkup.pdf                # PDF della presentazione  
+
 # 🧠 Modelli utilizzati
 
 Sono stati addestrati e confrontati tre modelli:
@@ -104,4 +107,4 @@ La cartella **IMAGES/** contiene:
 
 # 📄 PDF presentazione
 
-Il PDF della presentazione del progetto è **presentazione.pdf**
+Il PDF della presentazione del progetto è **CNN_rollers_checkup.pdf**
