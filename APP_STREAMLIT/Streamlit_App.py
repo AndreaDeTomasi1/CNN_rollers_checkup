@@ -200,8 +200,8 @@ if uploaded_files:
 
                 # --- VISUALIZZAZIONE VALORI USURA ---
                 st.markdown("### 🔎 Valori di usura rilevati per ogni ruota \n (0 = Ottima ✅, 1 = Pessima 🚨):")
-                for i, (dx, sx) in enumerate(predictions.values()):
-                    st.write(f"**Ruota {i+1}:** → Lato dx: {dx:.3f} | Lato sx: {sx:.3f}")
+                for i, (sx, dx) in enumerate(predictions.values()):
+                    st.write(f"**Ruota {i+1}:** → Lato sx: {sx:.3f} | Lato dx: {dx:.3f}")
                      # aggiungo il riferimento all'immagine
                     if uploaded_files and i < len(uploaded_files):
                         st.markdown(f"<p style='color:gray; font-size:0.85rem; margin-top:-0.6rem;'>🖼️ <i>{uploaded_files[i].name}</i></p>",
@@ -342,4 +342,5 @@ if prompt := st.chat_input("Scrivi un messaggio per Rollers Bot..."):
 if st.button("🗑️ Reset Chat"):
     st.session_state.chat_history = []
     st.experimental_rerun()
+
     
