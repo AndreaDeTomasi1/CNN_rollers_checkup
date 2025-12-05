@@ -1,9 +1,9 @@
-## 🛼 CNN_rollers_checkup – Analisi dell’usura delle ruote dei pattini e riposizionamento ottimale
+# 🛼 CNN_rollers_checkup – Analisi dell’usura delle ruote dei pattini e riposizionamento ottimale
 
 Questo progetto utilizza modelli di deep learning per **analizzare automaticamente l’usura delle ruote dei pattini a rotelle e suggerire il posizionamento ottimale** sul pattino in base al livello di consumo.
 Inoltre include una **web app Streamlit** per effettuare analisi tramite interfaccia grafica e un chatbot per richiedere specifiche tecniche.
 
-# 🚀 Funzionalità principali
+## 🚀 Funzionalità principali
 
 - Classificazione dell’usura tramite reti neurali.
 
@@ -33,7 +33,7 @@ Inoltre include una **web app Streamlit** per effettuare analisi tramite interfa
 
 - CSV con metriche di performance dei modelli.
 
-# 📁 Struttura della Repository  
+## 📁 Struttura della Repository  
 .  
 ├── APP_STREAMLIT/                        # Cartella per webapp streamlit    
 │  
@@ -60,7 +60,7 @@ Inoltre include una **web app Streamlit** per effettuare analisi tramite interfa
 │  
 └── CNN_rollers_checkup.pdf                # PDF della presentazione  
 
-# 🧠 Modelli utilizzati
+## 🧠 Modelli utilizzati
 
 Sono stati addestrati e confrontati tre modelli:
 
@@ -73,7 +73,7 @@ Sono stati addestrati e confrontati tre modelli:
 
 I risultati sono disponibili nei file CSV nella cartella /CSVS/model_performance.
 
-# ▶️ Info sulla Web App
+## ▶️ Info sulla Web App
 
 La UI permette di:
 
@@ -87,7 +87,7 @@ La UI permette di:
 
 - Interagire con un chatbot per domande tecniche
 
-# 📷 Dataset e Supporto 3D
+## 📷 Dataset e Supporto 3D
 
 La cartella **IMAGES/** contiene:
 
@@ -97,7 +97,7 @@ La cartella **IMAGES/** contiene:
 
 - Foto del supporto stampato in 3D per l’acquisizione controllata delle ruote
 
-# 📌 Possibili sviluppi futuri
+## 📌 Possibili sviluppi futuri
 
 - Ampliamento dataset
 
@@ -105,6 +105,6 @@ La cartella **IMAGES/** contiene:
 
 - Esportazione dell’algoritmo su app mobile
 
-# 📄 PDF presentazione
+## 📄 PDF presentazione
 
 Il PDF della presentazione del progetto è **CNN_rollers_checkup.pdf**
